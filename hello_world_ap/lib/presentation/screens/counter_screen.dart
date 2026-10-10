@@ -22,7 +22,7 @@ class _CounterScreenState extends State<CounterScreen> {
           children: [
             Text('$clickCounter',
              style: const TextStyle(fontSize: 160, fontWeight: FontWeight.w100)),
-            Text('Click${ clickCounter == 1 ? '':'s' }', style: TextStyle(fontSize: 25)),
+            Text('Click${ clickCounter == 1 ? '':'s' }', style:const TextStyle(fontSize: 25)),
           ],
         ),
       ),
